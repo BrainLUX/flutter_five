@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo/theme/app_colors.dart';
 import 'package:todo/widgets/todo_item_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../models/todo.dart';
 
@@ -68,7 +69,7 @@ class _TodoScreenState extends State<TodoScreen> {
     return Scaffold(
       backgroundColor: AppColors.backgroundColor,
       appBar: AppBar(
-        title: const Text('Задачи'),
+        title: Text(AppLocalizations.of(context)!.todoTitle),
         surfaceTintColor: Colors.transparent,
         backgroundColor: Colors.transparent,
         titleTextStyle: Theme.of(context).textTheme.displaySmall!.copyWith(

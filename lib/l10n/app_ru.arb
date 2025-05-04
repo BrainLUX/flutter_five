@@ -1,0 +1,7 @@
+{
+  "todoTitle": "Задачи",
+  "completedEnabled": "Показать все",
+  "completedDisabled": "Спрятать завершенные",
+  "taskHint": "Введите задачу...",
+  "taskDetailsTitle": "Детали задачи"
+}

@@ -1,0 +1,7 @@
+{
+  "todoTitle": "Tasks",
+  "completedEnabled": "Show all",
+  "completedDisabled": "Hide completed",
+  "taskHint": "Enter a task...",
+  "taskDetailsTitle": "Task details"
+}
